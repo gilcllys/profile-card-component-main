@@ -135,27 +135,3 @@ a:hover {
         left: 219px;
     }
   }
-
-@media only screen and (min-width: 1024px) {
-    img.top{
-        position: fixed;
-        left: -667px;
-        top: -591px;
-    }
-    img.bottom{
-        position: fixed;
-        top: 650px;
-        left: 311px;
-    }
-
-    main{
-        position: relative;
-        bottom: -200px;
-    }
-    div.attribution >p {
-        position: relative;
-        top: 200px;
-    }
-}
-
-
