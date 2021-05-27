@@ -16,8 +16,12 @@
   <img class="top" src="images/bg-pattern-top.svg" alt="">
   <img class="bottom" src="images/bg-pattern-bottom.svg" alt="">
   <main>
-    <!-- bg pattern card-->
-    <img id="pattern_card" src="images/bg-pattern-card.svg" alt="##">
+    <picture>
+      <source srcset="images/bg-pattern-card-small.svg" media="(max-width: 600px )" >
+      <source  srcset="images/bg-pattern-card.svg">
+      <!-- bg pattern card-->
+      <img id="pattern_card" src="images/bg-pattern-card.svg" alt="Patter card" style="width: auto;">
+    </picture>
     
     <!--Section with the personal information-->
     <section id="info_personal">
