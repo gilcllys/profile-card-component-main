@@ -18,7 +18,7 @@ div.container_data > p.number_data {
     margin: 6px auto;
     padding: 0;
     width: fit-content;
-
-p>strong{
+}
+p > strong{
     font-size: 18px;
 }
