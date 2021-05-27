@@ -1,22 +1,42 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: hsl(185, 75%, 39%);
+    border:  1px solid black;
+    height: 630px;
+    
+}
+/* bg parttern top and bottom*/
+img.top{
+    position: fixed;
+    left: -428px;
+    top: -493px;
+}
+img.bottom{
+    position: fixed;
+    top: 211px;
+    left: 741px;
 }
 
+/* sytles of <main> tags*/
 main{
+    position: relative;
     margin: 50px auto;
     border: 1px solid black;
     border-radius: 10px;
     width: fit-content;
     height: fit-content;
+    background-color: rgb(255, 255, 255);
 }
-
+/* pattern card */
 #pattern_card{
     border-radius: 10px 10px 0 0;
-    border: 1px solid black;
 }
+/* end */
 
+/* section information personal */
 #data{
+    
     display: flex;
     border: 1px solid black;
     justify-content: space-between;
@@ -24,11 +44,10 @@ main{
     margin: 20px auto;
 }
 
-div.container_data > p{
-    border: 1px solid black;
-    margin: 0;
+#photo_victor{
+    border-radius: 50%;
+    border: 5px solid white
 }
-
 #info_personal{
     position: relative;
     top: -55px;
@@ -37,15 +56,38 @@ div.container_data > p{
     align-items: center;
 }
 
-#photo_victor{
-    border-radius: 50%;
-    border: 5px solid white
-}
-
 #info_personal > p{
     position: relative;
     border : 1px solid black;
     margin: 4px;
     top: 20px;
 }
+/* end*/
 
+/* section with data informations */
+div.container_data > p{
+    border: 1px solid black;
+    margin: 0;
+}
+/* end*/
+
+/* div attribution */
+div.attribution > p{
+    position: relative;
+    bottom: -110px;
+    right: -10px;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    
+}
+a:visited,a:link{
+    text-decoration: none;
+
+}
+a:hover {
+	text-decoration: underline; 
+	color:rgb(53, 25, 116);
+	}
+
+/* end*/
